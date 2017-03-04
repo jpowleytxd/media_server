@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+body{
+    background: rgb(50, 50, 50);
+}
+
+.clearfix{
+  clear: both;
+}
+
+#feedback-bar{
+  width: 100%;
+  height: 50px;
+  z-index: 110;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+#feedback-bar.feedback-success{
+  background: #55FA9C;
+}
+
+#feedback-bar.feedback-fail{
+  background: #FC424B;
+}
+
+/*----------------*/
+/*Home page login*/
+/*----------------*/
+
+.login-fullpage{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  padding-top: 100px;
+  background: rgb(50, 50, 50);
+}
+
+.login-outer{
+  width: 20%;
+  min-width: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-logo{
+  width: 80%;
+  height: 50px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.login-logo .logo{
+  width: 100%;
+  height: 50px;
+  display: block;
+  position: relative;
+  color: #f5f5f5;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.login-inner{
+  width: 100%;
+  height: 300px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.login-form{
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-field{
+  width: 100%;
+  position: relative;
+}
+
+.login-field label{
+  width: 70%;
+  height: 30px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f5f5f5;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+}
+
+.login-field input{
+  width: 70%;
+  height: 40px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
+  background: #f5f5f5;
+  color: #27363f;
+}
+
+.login-field input:focus{
+  border: 0;
+  outline: none;
+}
+
+.login-button{
+  width: 35%;
+  height: 40px;
+  display: block;
+  position: relative;
+  float: none;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  background: #2E4DFF;
+  color: #f5f5f5;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+}
+
+.login-button:hover{
+  background: #001AAD;
+  cursor: pointer;
+}
+
+/*----------------*/
+/*Browser Page*/
+/*----------------*/
